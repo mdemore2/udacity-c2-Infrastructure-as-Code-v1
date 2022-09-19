@@ -1,5 +1,5 @@
 Description: >
-    Carlos Rivas / Udacity 2019
+    Udacity Infrastructure as Code Project
 
 Parameters:
 
@@ -62,7 +62,7 @@ Resources:
       KeyName: infra_as_code
       SecurityGroups:
       - Ref: WebServerSecGroup
-      InstanceType: t3.medium
+      InstanceType: t3.small
       BlockDeviceMappings:
       - DeviceName: "/dev/sdk"
         Ebs:
