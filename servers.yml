@@ -58,8 +58,6 @@ Resources:
           echo "Udacity Demo Web Server Up and Running!" > index.html
       # ToDo: AMI ID of Ubuntu Linux machine. Too get one, try creating a VM from the web console. 
       ImageId: ami-030fcedb5a7a6963b
-      # ToDo: Change the key-pair name, as applicable to you. 
-      KeyName: infra_as_code
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.small
